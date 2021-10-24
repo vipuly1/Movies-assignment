@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding:0 ;
+    background-color: #1e2931;
+    color: whitesmoke;
+}
+input{
+    text-align: center;
+    width: 50%;
+    padding: 10px;
+    font-size:16px ;
+    background-color: #131b20;
+    border: 1px solid white;
+    color: white;
+    position: relative;
+}
+.input{
+    text-align: center;
+    margin: 20px 0;
+}
+.search-icon{
+    position: absolute;
+    left: 73.5%;
+    top: 4.4%;
+    background: transparent;
+}
+
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card{
+    width: calc(20% - 30px);
+    margin-right: 6px;
+    border: none ;
+    border-radius: 6px;
+}
+.card:hover{
+    transform: scale(1.03,1.03);
+    transition: 0.5s;
+}
+
+.imgWrapper{
+    height: 400px;
+    position: relative;
+    
+}
+.img{
+    width: 100%;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+
+}
+.image-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(1, 69, 109, 0.5);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+} 
+p{
+    background: transparent;
+    font-size: 16px;
+    font-weight: bold;
+}
+.image-overlay:hover{
+    opacity: 1;
+    transition: 0.5s;
+}
+h2{
+    margin: 0;
+    text-align: center;
+}
+.Movie-name-wrapper{
+    padding: 8px;
+}
+#footer{
+    padding: 30px;
+    justify-content: center;
+}
